@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My List</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="card text-center">
+    <h1 class="card-header">Yapılacaklar Listesi</h1>
+    <div class="card-body">
+      <form id="listForm">
+        <div class="form-row  ">
+            <div class="form-group col-12 ">
+                 <input class="form-control" type="text" id="listInput" required>
+        
+            </div>
+        </div>
+        <hr>
+
+        <div class="form-row">
+            <div class="form-group col-12">
+            <button class="btn btn-outline-success " type="submit">Ekle</button>
+        </div>
+       
+        </div>
+        
+      </form>
+    </div>
+      <hr>
+      <div class="card-body">
+                    
+        <h5 class="card-header" id = "tasks-title">Yapılacaklar</h5>
+        <div class="form-row">
+                <div class="form-group col-12">
+                    <input class="form-control" type="text" name="filter" id = "filter" placeholder="Bir işinizi Arayın">
+                </div>
+        </div>
+
+      <ul class="list-group" id="list">
+      </ul>
+    </div>
+</div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
