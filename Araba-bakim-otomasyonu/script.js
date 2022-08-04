@@ -1,6 +1,5 @@
 var data=[];
 var count=0;
-
 ;
 
 function AddArac(){
