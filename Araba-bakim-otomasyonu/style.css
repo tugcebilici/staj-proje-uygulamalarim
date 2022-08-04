@@ -1,0 +1,72 @@
+body{
+    text-align: center !important;
+
+}
+
+
+h2{
+    color:darkblue;
+    font-family:sans-serif;
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+    font-family:sans-serif;
+    font-size: 10px;
+}
+
+p,input{
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 7px !important;
+}
+
+.content{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    
+}
+
+.box{
+    /* margin: auto !important; */
+    margin-top: 15px !important;
+    font-size: 25px;
+    background-color: white;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* ARAÇLAR STYLE */
+.head-brand{
+    background-color:darkblue;
+    text-align: center;       
+    padding: 3px;
+}
+
+/* BAKIM YAPILAN ARAÇLAR STYLE */
+.head-completed{
+    background-color:darkblue ;
+    text-align: center;
+    padding: 3px; 
+} 
+
+/* TESLİM EDİLEN ARAÇLAR STYLE */
+.head-delivered{
+    background-color:whitesmoke ;
+    color: darkblue !important;
+    text-align: center;
+    padding: 5px; 
+    font-family:sans-serif;
+    font-size: 30px;
+} 
+
+.btn-add{
+    padding: 4px 5px !important;
+    font-size: 30px !important;
+
+}
