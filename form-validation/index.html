@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+    <div class="container" style="margin-top:20px;"></div>
+
+
+    <div class="card">
+        <div class="card-header text-center" id="card-header"></div>
+        <div class="card-body ">
+
+            <form id="form"  name="user-form"   >
+                <div class="row">
+                    <div class="form-floating mb-2 col-sm-6 col">
+                        <input type="text" class="form-control"  autocomplete="off" id="adSoyad" placeholder="Ad Soyad">
+                        <label for="floatingPassword">Ad Soyad</label>
+                    </div>
+                    <div class="form-floating mb-2 col-6">
+                        <input type="password" class="form-control" id="sifre" placeholder="şifre">
+                        <label for="floatingPassword">Şifre</label>
+                    </div>
+
+                    <div class="form-floating mb-2 col-6">
+                        <input type="tel" class="form-control" name="telNo" id="telNo" placeholder="Telefon Numarası">
+                        <label for="floatingPassword">Telefon Numarası</label>
+                    </div>
+
+
+                    <div class="form-floating mb-2 col-6">
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+
+
+                    <br>
+
+                    <div class="form-floating mb-2 col-sm-12">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="mesaj"
+                            style="height: 100px "></textarea>
+                        <label>Mesaj..</label>
+                        <br>
+                        <div class="row">
+                            <div class="col-1">
+                                <input type="color" class="form-control form-control-color" id="renk" value="#000000"
+                                    title="Choose your color">
+                            </div>
+                            <div id="cinsiyet" class="col-2">
+                                <label for="male">KADIN</label>
+                                <input type="radio" id="male" name="gender" value="Kadın" />
+                                <label for="female">ERKEK</label>
+                                <input type="radio" id="female" name="gender" value="Erkek" />
+                            </div>
+                            <div class="col-3">
+                                <input type="date" class="form-control col-3 "  id="tarih">
+                            </div>
+                        </div>
+                        <br>
+                        <p id="text-cont"></p>
+                        <input type="button" class="btn btn-outline-light" onclick="formControl()" value="Gönder">
+                        <form>
+
+                    </div>
+                </div>
+            </form>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
