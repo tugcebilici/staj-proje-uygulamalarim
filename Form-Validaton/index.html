@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validator</title>
+</head>
+
+<body>
+
+    <div class="p-3 m-0 border-0 bd-example">
+        <div class="container" style="margin-top:20px;"></div>
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <form id="form">
+                    <div class="row">
+                        <div class="form-floating mb-2 col-sm-6 ">
+                            <label for="username">Kullanıcı Adı</label>
+                            <input type="text" class="form-control" id="username" placeholder="Kullanıcı adınız..">
+                            <div></div>
+                        </div>
+                        <div class=" form-floating mb-2 col-sm-6 col">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Mailinizi giriniz..">
+                            <div></div>
+                        </div>
+                        <div class="form-floating mb-2 col-sm-6 col">
+                            <label for="phone">Telefon Numarası</label>
+                            <input type="number" class="form-control" id="phone"
+                                placeholder="Telefon numaranızı giriniz..">
+                            <div></div>
+                        </div>
+                        <div class="form-floating mb-2 col-sm-6 col">
+                            <label for="password">şifre</label>
+                            <input type="password" class="form-control" id="sifre" placeholder="şifrenizi giriniz..">
+                            <div></div>
+                        </div>
+
+                        <div class="form-floating mb-2 col-sm-12">
+                            <label for="repassword">Mesajınız</label>
+                            <textarea class="form-control" id="mesaj" placeholder="mesajınızı giriniz.."
+                                style="height: 100px"></textarea>
+                            <div></div>
+                        </div>
+                     
+                            <div class="col-12">
+                                <input type="date" class="form-control col-3 " id="tarih">
+                            </div>
+                            <div class="col-1">
+                                <input type="color" class="form-control form-control-color" id="renk" value="#000000"
+                                    title="Renginizi seçiniz..">
+                            </div>
+
+                            <div></div>
+                     
+
+                        <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
