@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>www.btdersleri.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    footer {
+      background-color: rgb(210, 179, 184);
+      padding: 25px;
+    }
+    a{
+      color: rgba(216, 113, 130, 0.755);
+    }
+
+    .carousel-inner img {
+      width: 100%; 
+      min-height: 200px;
+    }
+
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">DENEME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">iletişim</a></li>
+        <li><a href="#">Ürünler</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Giriş</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/images.jfif">
+          <div class="carousel-caption">
+            <h3>Başlık 1</h3>
+            <p>Açıklama 1</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="images/650x0gul.jpg">
+          <div class="carousel-caption">
+            <h3>Başlık 2</h3>
+            <p>Açıklama 2</p>
+          </div>      
+        </div>
+        
+        <div class="item">
+          <img src="images/977ed5b5792d7149f6d81ce5f55c41b9.jpg">
+          <div class="carousel-caption">
+            <h3>Başlık 3</h3>
+            <p>Açıklama 3</p>
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Önceki</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Sonraki</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well">
+      <p>Kutu1</p>
+    </div>
+    <div class="well">
+       <p>Kutu2</p>
+    </div>
+    <div class="well">
+       <p>Kutu3</p>
+    </div>
+  </div>
+</div>
+<hr>
+</div>
+
+<div class="container text-center">    
+  <h3>BootStrap Örnekleri</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="images/images1.jfif" class="img-responsive" style="width:100%" alt="Image">
+      <p>Kutu4</p>
+    </div>
+    <div class="col-sm-3"> 
+      <img src="images/images1.jfif" class="img-responsive" style="width:100%" alt="Image">
+      <p>Kutu5</p>    
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>Kutu6</p>
+      </div>
+      <div class="well">
+       <p>Kutu7</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>Kutu8</p>
+      </div>
+      <div class="well">
+       <p>Kutu9</p>
+      </div>
+    </div>  
+  </div>
+</div>
+
+<br>
+
+<footer class="container-fluid text-center">
+  <p>Alt Bilgi</p>
+</footer>
+
+</body>
+</html>
